@@ -3,18 +3,17 @@ package com.cust.service;
 import java.util.ArrayList;
 import java.util.List;
 
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import com.cust.exec.Customers;
-import com.cust.repository.CustRepository;
+import com.cust.repository.CustomerRepository;
 
 @Service
 public class CustService {
 
-    final CustRepository custrepository;
+    final CustomerRepository custrepository;
 
-    public CustService(CustRepository custrepository) {
+    public CustService(CustomerRepository custrepository) {
         this.custrepository = custrepository;
     }
 
