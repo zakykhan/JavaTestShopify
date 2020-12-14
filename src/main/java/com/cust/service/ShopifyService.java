@@ -23,4 +23,9 @@ public class ShopifyService {
         return responseBody;
     }
 
+    public static void main(String[] args){
+        ShopifyService ss  = new ShopifyService() ;
+        System.out.println(ss.getData());
+    }
+
 }
