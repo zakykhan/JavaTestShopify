@@ -1,9 +1,9 @@
-package com.cust.service;
+package com.task.service;
 
-import com.cust.repository.ShopifyRepository;
-import com.cust.util.Constants;
-import com.cust.util.RestHelper;
-import com.entity.ShopifyEntity;
+import com.task.repository.ShopifyRepository;
+import com.task.util.Constants;
+import com.task.util.RestHelper;
+import com.task.entity.ShopifyEntity;
 import org.hibernate.mapping.Map;
 import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Service;

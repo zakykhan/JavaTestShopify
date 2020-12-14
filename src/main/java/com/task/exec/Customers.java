@@ -1,4 +1,4 @@
-package com.cust.exec;
+package com.task.exec;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;

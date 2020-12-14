@@ -1,7 +1,7 @@
-package com.cust.repository;
+package com.task.repository;
 
 import org.springframework.data.repository.CrudRepository;
-import com.cust.exec.Customers;
+import com.task.exec.Customers;
 
 public interface CustomerRepository extends CrudRepository<Customers, Integer> {
 }  

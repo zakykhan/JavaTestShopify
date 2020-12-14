@@ -1,6 +1,6 @@
-package com.cust.repository;
+package com.task.repository;
 
-import com.entity.ShopifyEntity;
+import com.task.entity.ShopifyEntity;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.Optional;

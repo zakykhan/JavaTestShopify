@@ -1,12 +1,12 @@
-package com.cust.service;
+package com.task.service;
 
 import java.util.ArrayList;
 import java.util.List;
 
 import org.springframework.stereotype.Service;
 
-import com.cust.exec.Customers;
-import com.cust.repository.CustomerRepository;
+import com.task.exec.Customers;
+import com.task.repository.CustomerRepository;
 
 @Service
 public class CustService {

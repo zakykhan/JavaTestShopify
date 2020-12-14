@@ -1,4 +1,4 @@
-package com.entity;
+package com.task.entity;
 
 import javax.persistence.*;
 import java.util.Map;

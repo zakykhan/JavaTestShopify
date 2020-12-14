@@ -1,7 +1,7 @@
-package com.cust.controller;
+package com.task.controller;
 
-import com.cust.service.ShopifyService;
-import com.entity.ShopifyEntity;
+import com.task.service.ShopifyService;
+import com.task.entity.ShopifyEntity;
 import org.hibernate.mapping.Map;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
