@@ -16,7 +16,7 @@ public class ShopifyController {
 
     @GetMapping("/shopifyData")
     private Map getAllCustomers() {
-        return shopifyService.getData();
+        return shopifyService.retrieveData();
     }
 
 }
