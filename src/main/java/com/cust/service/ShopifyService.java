@@ -22,10 +22,4 @@ public class ShopifyService {
         Map responseBody = response.getBody();
         return responseBody;
     }
-
-    public static void main(String[] args){
-        ShopifyService ss  = new ShopifyService() ;
-        System.out.println(ss.getData());
-    }
-
 }
