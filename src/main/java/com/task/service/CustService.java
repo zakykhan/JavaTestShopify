@@ -5,7 +5,7 @@ import java.util.List;
 
 import org.springframework.stereotype.Service;
 
-import com.task.exec.Customers;
+import com.task.entity.Customers;
 import com.task.repository.CustomerRepository;
 
 @Service

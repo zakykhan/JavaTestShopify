@@ -1,4 +1,4 @@
-package com.task.exec;
+package com.task.entity;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;

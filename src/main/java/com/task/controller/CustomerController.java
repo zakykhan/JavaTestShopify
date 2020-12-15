@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.task.exec.Customers;
+import com.task.entity.Customers;
 import com.task.service.CustService;
 
 
