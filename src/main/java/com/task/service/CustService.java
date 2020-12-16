@@ -19,7 +19,7 @@ public class CustService {
 
 
     public List<Customers> getAllCustomers() {
-        List<Customers> customers = new ArrayList<>();
+        List<Customers> customers = new ArrayList<Customers>();
         custrepository.findAll().forEach(cust1 -> customers.add(cust1));
         return customers;
     }
